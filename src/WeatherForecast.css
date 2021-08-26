@@ -18,6 +18,7 @@
   line-height: 1.5;
   color: #f65282;
   font-weight: bold;
+  text-shadow: 1px 1px #9c6e8d;
 }
 
 .WeatherForecast .forecast-temperature-min {
