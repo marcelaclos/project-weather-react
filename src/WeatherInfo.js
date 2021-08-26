@@ -19,6 +19,7 @@ export default function WeatherInfo(props) {
             </li>
             <li>Pressure: <strong>{props.data.pressure}km/h</strong></li>
             <li>Feels like: <strong>{Math.round(props.data.feelsLike)}°</strong></li>
+            <li>H: <strong>{Math.round(props.data.setHighTemp)}°</strong>  L: <strong>{Math.round(props.data.setLowTemp)}°</strong></li>             
           </ul>
         </div>
         <div className="col-6">
@@ -28,7 +29,7 @@ export default function WeatherInfo(props) {
               <span className="temperature">
                 {Math.round(props.data.temperature)}
               </span>
-              <span className="unit">°C</span>
+              <span className="unit">°C</span>  
             </div>
           </div>
         </div>

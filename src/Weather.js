@@ -21,6 +21,8 @@ export default function Weather(props) {
       pressure: response.data.main.pressure,
       city: response.data.name,
       feelsLike: response.data.main.feels_like,
+      setHighTemp:response.data.main.temp_max,
+      setLowTemp:response.data.main.temp_min,
     });
   }
 
