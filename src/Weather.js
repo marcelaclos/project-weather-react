@@ -20,6 +20,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       pressure: response.data.main.pressure,
       city: response.data.name,
+      feelsLike: response.data.main.feels_like,
     });
   }
 

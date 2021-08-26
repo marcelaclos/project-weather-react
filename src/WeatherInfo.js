@@ -18,6 +18,7 @@ export default function WeatherInfo(props) {
               <strong>{props.data.wind}km/h</strong>
             </li>
             <li>Pressure: <strong>{props.data.pressure}km/h</strong></li>
+            <li>Feels like: <strong>{Math.round(props.data.feelsLike)}°</strong></li>
           </ul>
         </div>
         <div className="col-6">
