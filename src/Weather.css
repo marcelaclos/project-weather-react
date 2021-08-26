@@ -13,11 +13,6 @@
   max-width: 700px;
 }
 
-.Weather .logo {
-  max-width: 150px;
-  display: block;
-}
-
 .Weather form {
   margin-top: 40px;
   border-bottom: 1px solid #f9f7fe;
@@ -127,3 +122,4 @@
 .Weather footer a {
   color: #885df1;
 }
+

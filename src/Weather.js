@@ -18,6 +18,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
+      pressure: response.data.main.pressure,
       city: response.data.name,
     });
   }
@@ -87,7 +88,7 @@ export default function Weather(props) {
           >
             hosted on Netlify
           </a>
-        </footer>
+        </footer>   
       </div>
     );
   } else {
