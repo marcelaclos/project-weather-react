@@ -3,9 +3,7 @@
 .Weather {
   font-family: "Josefin Sans", sans-serif;
   background: linear-gradient(to bottom, #9ddbf0 0%, #ff99cc 100%);
-  padding: 40px;
   color: rgb(135, 135, 135);
-
   margin: 78px auto;
   padding: 20px;
   padding-left: 50px;
@@ -68,7 +66,7 @@
   font-weight: bold;
   font-size: 38px;
   line-height: 48px;
-
+  text-shadow: 2px 2px #9c6e8d;
   color: #272142;
 }
 
@@ -100,6 +98,7 @@
   font-weight: bold;
   font-size: 80px;
   line-height: 1;
+  text-shadow: 2px 2px #9c6e8d;
 }
 
 .Weather canvas {
@@ -114,6 +113,7 @@
   position: relative;
   line-height: 1;
   top: -34px;
+   text-shadow: 2px 2px #b98bab;
 }
 
 .Weather footer {
