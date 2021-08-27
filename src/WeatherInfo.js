@@ -24,7 +24,7 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <div className="temperature-container d-flex justify-content-end">
-            <WeatherIcon code={props.data.icon} size={52} />
+            <WeatherIcon code={props.data.icon} size={53} />
             <div>
               <span className="temperature">
                 {Math.round(props.data.temperature)}
